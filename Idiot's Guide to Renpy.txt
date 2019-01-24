@@ -1,0 +1,7 @@
+This is the raw GAME folder of zishy's Renpy Tutorial.
+Put it in any project folder and open it using Renpy.
+
+https://zhaieyuemn.itch.io/
+
+Thankies much!
+Happy VN-making :)

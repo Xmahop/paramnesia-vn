@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 37, in script
+    $ init_char("Sprites/Prologue/Oleg/Oleg_1.1.png")
+  File "game/script.rpy", line 37, in <module>
+    $ init_char("Sprites/Prologue/Oleg/Oleg_1.1.png")
+NameError: name 'init_char' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 37, in script
+    $ init_char("Sprites/Prologue/Oleg/Oleg_1.1.png")
+  File "/Volumes/renpy-7.1.3-sdk/renpy-7.1.3-sdk/renpy/ast.py", line 881, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Volumes/renpy-7.1.3-sdk/renpy-7.1.3-sdk/renpy/python.py", line 1913, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 37, in <module>
+    $ init_char("Sprites/Prologue/Oleg/Oleg_1.1.png")
+NameError: name 'init_char' is not defined
+
+Darwin-18.0.0-x86_64-i386-64bit
+Ren'Py 7.1.3.1092
+Paramnesia 1.0
+Mon Jan 21 00:24:39 2019
